@@ -15,7 +15,10 @@
         <vaadin.plugin.version>${vaadin.version}</vaadin.plugin.version>
          
     </properties>
-
+    <properties>
+  	<sonar.organization>jasuquo</sonar.organization>
+  	<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+    </properties>
     <repositories>
         <repository>
             <id>vaadin-prereleases</id>
@@ -28,7 +31,7 @@
             <id>vaadin-addons</id>
             <url>http://maven.vaadin.com/vaadin-addons</url>
         </repository>
-
+        
         <repository>
             <id>vaadin-snapshots</id>
             <url>http://oss.sonatype.org/content/repositories/vaadin-snapshots/</url>
